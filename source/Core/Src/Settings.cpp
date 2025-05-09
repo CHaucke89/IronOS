@@ -92,8 +92,8 @@ static const SettingConstants settingsConstants[(int)SettingsOptions::SettingsOp
     {        MIN_BRIGHTNESS,                                                        MAX_BRIGHTNESS,   BRIGHTNESS_STEP,           DEFAULT_BRIGHTNESS}, // OLEDBrightness
     {                     0,                                                                     6,                 1,                            1}, // LOGOTime
     {                     0,                                                                     1,                 1,                            0}, // CalibrateCJC
-    {                     0,                                                                     1,                 1,                            0}, // BluetoothLE
-    {                     0,                                                                     2,                 1,                            0}, // USBPDMode
+    {                     0,                                                                     1,                 1,                            1}, // BluetoothLE
+    {                     0,                                                                     2,                 1,                            1}, // USBPDMode
     {                     1,                                                                     5,                 1,                            4}, // ProfilePhases
     {            MIN_TEMP_C,                                                            MAX_TEMP_F,                 5,                           90}, // ProfilePreheatTemp
     {                     1,                                                                    10,                 1,                            1}, // ProfilePreheatSpeed
